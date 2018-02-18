@@ -13,7 +13,7 @@ To install nodeidon as a developement dependency:
 # Usage
 To start a script
 
-`nodeidon .examples/server.js`
+`nodeidon ./examples/server.js`
 
 ### Contribute
 1. Fork this repository
