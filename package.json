@@ -1,12 +1,18 @@
 {
-    "name": "nodeidon",
-    "version": "0.0.1",
-    "description": "",
-    "main": "lib/index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "Chidume Nnamdi <kurtwanger40@gmail.com>",
-    "license": "ISC"
+  "name": "nodeidon",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./lib/index.js",
+  "bin": {
+    "nodeidon": "./lib/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Chidume Nnamdi <kurtwanger40@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.14.1"
+  }
 }
