@@ -1,5 +1,5 @@
 # Nodeidon
-Node.js daemon that watches files/directories using [Nodejs FileWatcher](http://nodejs.org/api/fs.html#fs_class_fs_fswatcher) and re-spawns edited file/server using [Nodejs Child_Process spawn](http://nodejs.org/api/child_process.html).
+`Node.js` daemon that watches files/directories using [Nodejs FileWatcher](http://nodejs.org/api/fs.html#fs_class_fs_fswatcher) and re-spawns edited file/server using [Nodejs Child_Process spawn](http://nodejs.org/api/child_process.html).
 
 # Installation
 To install `nodeidon` globally in your system:
